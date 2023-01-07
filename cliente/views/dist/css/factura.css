@@ -1,0 +1,96 @@
+.factura{
+    background-color: transparent;
+}
+
+
+.factura-header-prov{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border: 1px solid rgba(0,0,0,.2);
+}
+
+.factura-header-prov span{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0,0,0,.4);
+    line-height: 40px;
+}
+
+.factura-body{
+    min-height: 250px;
+    border: 1px solid rgba(0,0,0,.2);
+}
+
+.factura-title{
+    color: #007bff;
+}
+.factura-body table tr{
+    box-sizing: border-box;
+    padding:20px;
+}
+
+.factura-body table thead tr td{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: start;
+    color: #007bff;
+}
+.factura-body table tr td{
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    width: 25%;
+}
+
+.box-items{
+    border: 1px solid rgba(0,0,0,.2);
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-items .item-valores{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-orden-card{
+    border-bottom: 1px solid red;
+    width: 50%;
+    margin-bottom: 14px;
+}
+
+.orden-trabajo{
+    border: 1px solid #4040ff;
+    border-radius: 5px;
+}
+
+.border-top{
+    border-top: 1px solid #4040ff !important;
+}
+
+.sin-margin-y{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.sin-margin-x{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.sin-padding-y{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.text-azul{
+    color: #4040ff !important;
+}
+
+.border-rigth{
+    border-right: 1px solid #4040ff !important;
+}
+
